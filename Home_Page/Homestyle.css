@@ -1,0 +1,165 @@
+.homepage {
+    width: 360px;
+    height: 640px;
+    background: #ffffff;
+}
+
+.logo {
+    display: flex;
+    height: 48px;
+    padding: 6px 157px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    /* styling */
+    background: #000;
+}
+
+.homepage img {
+    padding-top: 10px;
+    width: 45px;
+    height: 36px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.rectangle {
+    width: 360px;
+    height: 24px;
+    flex-shrink: 0;
+    background: #0A0A0A;
+}
+
+.homepage h3 {
+    text-align: center;
+    color: #000;
+    font-family: SeoulHangang;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.horizontal-line {
+    border-bottom: 1px solid#000000;
+    width: 330px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homepage h2 {
+    color: #000;
+    font-family: SeoulHangang;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+.nav-buttom-bar {
+    width: 360px;
+    height: 57px;
+    flex-shrink: 0;
+    background: var(--white, #FFF);
+}
+
+.add {
+    z-index: 100;
+    position: relative;
+    margin-left: 288px;
+    margin-bottom: -30px;
+}
+
+.add button {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 250px;
+    border: 1px solid var(--grey-900, #020202);
+    background: var(--grey-200, #F5F5F5);
+    box-shadow: 0px 2px 0px 0px #000;
+}
+
+.nav-buttom-bar .container {
+    z-index: -1;
+    display: flex;
+    width: 360px;
+    padding: 16px 224px 16px 16px;
+    align-items: center;
+}
+
+.nav-buttom-bar .container .icons {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.horizontal-line1 {
+    border-bottom: 2px solid;
+}
+
+.made_icons {
+    position: fixed;
+    bottom: 0;
+}
+
+
+.act {
+    display: flex;
+    width: 276px;
+    height: 90px;
+    padding: 10px 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+    /* styling */
+    border-radius: 20px;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+h4 {
+    height: 20px;
+    flex-shrink: 0;
+    margin-bottom: 8px;
+
+    /* styling */
+    overflow: hidden;
+    color: #000;
+    text-overflow: ellipsis;
+    appearance: nowrap;
+    font-family: SeoulHangang;
+    font-size: 14px;
+
+}
+
+p {
+    height: 38px;
+    flex-shrink: 0;
+
+    /* styling */
+    overflow: hidden;
+    color: #000;
+    text-overflow: ellipsis;
+    appearance: nowrap;
+    font-family: SeoulHangang;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}

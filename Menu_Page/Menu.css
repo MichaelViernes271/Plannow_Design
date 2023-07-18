@@ -1,0 +1,63 @@
+.menupage {
+    width: 361px;
+    height: 640px;
+    background: #000;
+}
+
+.menupage img {
+    padding-top: 10px;
+    width: 45px;
+    height: 36px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.rectangle {
+    width: 361px;
+    height: 24px;
+    flex-shrink: 0;
+    background: #0A0A0A;
+}
+
+.menupage p {
+    width: 340px;
+    color: #FFF;
+    text-align: center;
+    font-family: SeoulHangang;
+    font-size: 34.18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menupage ul {
+    display: flex;
+    padding-top: 44px;
+    height: 328px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 44px;
+    flex-shrink: 0;
+}
+
+.menupage ul li {
+
+    color: #FFF;
+    font-family: SeoulHangang;
+    font-size: 17.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.horizontal-line {
+    border-bottom: 1px solid#888;
+    width: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
